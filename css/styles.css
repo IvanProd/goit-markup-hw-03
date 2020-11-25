@@ -1,0 +1,492 @@
+:root {
+    /*### ШРИФТЫ ###*/
+    --maine-font: Roboto-Medium, sans-serif;
+    --secondary-font: Raleway-Regular, sans-serif;
+
+    /*### политра ###*/
+
+    /*цвет фона*/
+    --body-bakeground-color: #E5E5E5;
+
+    /*шапка*/
+    --header-bakeground-color: #fff;
+    --logo-color-left: #2196F3;
+    --logo-color-right: #000;
+    --text-menu-color: #212121;
+    --text-menu-accent: #2196F3;
+    --link-telephon-and-mail: #757575;
+
+    /*герой*/
+    --hero-bakeground-color: #2F303A;
+    --button-color: #2196F3;
+    --hero-text-color: #fff;
+
+    /*особенности*/
+    --feature-head-color: #212121;
+    --feature-text-color: #757575;
+
+    /*чем мы занимаемся*/
+    --wedo-htad-color: #212121;
+
+    /*наша комвнда*/
+    --team-bakeground-color: #F5F4FA;
+    --team-head-color: #212121;
+    --team-specialty-color: #757575;
+    --team-card-bgcolor: #fff;
+
+    /*подвал*/
+    --footer-bgcolor: #2F303A;
+    --footer-logo-left: #2196F3;
+    --footer-logo-right: #fff;
+    --footer-address-location: #fff;
+    --footer-address-contact: #fff;
+
+    /*ПОРТФОЛИО*/
+
+    /*cссылки навигации*/
+    --portfolio-button-bgcolor: #F5F4FA;
+    --portfolio-button-bgcolor-active: #2196F3;
+    --portfolio-button-text-color: #212121;
+    --portfolio-button-text-active-color: #fff;
+    
+    /*каталог портфолио*/
+    --project-card-bgcolor: #fff;
+    --project-card-border-color: #EEEEEE;
+    --card-head: #212121;
+    --card-text: #757575;
+}
+/* .page {
+    background-color: ;
+} */
+
+/*===== шапка =====*/
+
+.heder {
+    background-color: var(--header-bakeground-color);
+}
+
+/*навигация страницы*/
+.main-navigation {
+}
+
+/*логотип*/
+.logo {
+}
+.logo-link {
+    text-decoration: none;
+}
+
+/*левая часть логотипа*/
+.logo-text-left {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--logo-color-left);
+}
+
+/*правая часть логотипа*/
+.logo-text-right {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--logo-color-right);
+}
+
+/*список сылок навигации*/
+.navigation-list {
+    list-style: none;
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+
+}
+
+/*элементы навигации*/
+.navigation-item-studio {
+}
+.navigation-item-portfolio {
+}
+.navigation-item-contacts {
+}
+
+/*ссылки навигации*/
+.navigation-link {
+    text-decoration: none;
+    color: var(--text-menu-color);
+}
+/*акценты*/
+.navigation-link:hover, 
+.navigation-link:focus{
+    color: var(--text-menu-accent);
+}
+.accent{
+    color: var(--text-menu-accent);
+}
+
+/*контакты почта и телефон*/
+.header-mail-link {
+    text-decoration: none;
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--link-telephon-and-mail);
+
+}
+.header-telephone-link {
+    text-decoration: none;
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--link-telephon-and-mail);
+
+}
+.header-mail-link:hover,
+.header-telephone-link:hover,
+.header-mail-link:focus,
+.header-telephone-link:focus {
+    text-decoration: none;
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--text-menu-accent);
+}
+
+/*===== ГЛАВНЫЙ КОНТЕНТ =====*/
+
+/*герой*/
+.hero {
+    background-color: var(--hero-bakeground-color);
+}
+.hero-heder {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    color: var(--hero-text-color);
+}
+.hero-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    background-color: var(--button-color);
+
+}
+.button-text {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--hero-text-color);
+}
+
+/*секция особености*/
+.features {
+}
+
+/*скрытие заголовка*/
+.features-head {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*список особенностей*/
+.features-list {
+    list-style: none;
+}
+.features-item-details {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--feature-head-color);
+}
+.features-item-head {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--feature-head-color);
+}
+.features-item-text {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--feature-text-color);
+}
+.features-item-punctuality {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--feature-head-color);
+}
+.features-item-planning {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--feature-head-color);
+}
+.features-item-modern-technology {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    color: var(--feature-head-color);
+}
+
+/*чем мы занимаемся*/
+.wedo {
+}
+/*заголовок секции*/
+.wedo-head {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    color: var(--wedo-htad-color);
+}
+/*список секции*/
+.wedo-list {
+    list-style: none;
+}
+/*элемент списка*/
+.wedo-item {
+}
+
+/*наша команда*/
+.our-team {
+}
+.our-team-head {
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    color: var(--team-head-color);
+}
+/*список наша команда*/
+.oure-time-list {
+    list-style: none;
+}
+.oure-time-list figure, a{
+    font-family: var(--maine-font);
+    text-decoration: none;
+    color: var(--team-head-color);
+}
+/*карточка участника команды*/
+.oure-time-card {
+    width: 270px;
+    height: 368px;
+
+    background: var(--project-card-bgcolor);
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+/*подпись карточки*/
+.oure-time-card-head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+}
+.oure-time-card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+    color: var(--team-specialty-color);
+}
+
+/*подвал*/
+.footer{
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    background-color: var(--footer-bgcolor);
+}
+.footer-logo-left {
+    color: var(--footer-logo-left);
+}
+.footer-logo-right {
+    color: var(--footer-logo-right);
+}
+.footer-address-list {
+     list-style: none;
+}
+.footer-address-location-link{
+    font-family: var(--maine-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+    color: var(--footer-address-location);
+}
+.footer-address-contact-link{
+    font-family: var(--maine-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--footer-address-contact);
+}
+
+/*############### ПОТФОЛИО ###############*/
+
+.portfolio-section {
+}
+/*оглавление страницы*/
+.portfolio-headre {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*навигация портфолио*/
+
+.portfolio-navigation-list {
+    list-style: none;
+    font-family: var(--maine-font);
+}
+.portfolio-navigation-item {
+}
+.portfoli-button {
+    background: var(--portfolio-button-bgcolor);
+    border: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    color: var(--portfolio-button-text-color);
+}
+.portfoli-button:hover,
+.portfoli-button:focus {
+    background: var(--portfolio-button-bgcolor-active);
+    border: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    color: var(--portfolio-button-text-active-color);
+}
+/*индивидуальный стилизация*/
+.all {
+    width: 78px;
+    height: 38px;
+}
+.web-site {
+    width: 128px;
+    height: 38px;
+}
+.application {
+    width: 145px;
+    height: 38px;
+}
+.design {
+    width: 103px;
+    height: 38px;
+}
+.marketing {
+    width: 130px;
+    height: 38px;
+}
+
+/*каталог портфолио*/
+.projects-section {
+}
+.projects-header {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.pojects-list {
+    font-family: var(--maine-font);
+}
+.project-item {
+}
+.project-card {
+
+    width: 370px;
+    height: 404px;
+    background: var(--project-card-bgcolor);
+    border: 1px solid var(--project-card-border-color);
+    box-sizing: border-box;
+}
+.card-link {
+}
+.caption{
+    width: 322px;
+    height: 70px;
+}
+.card-head {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--card-head);
+}
+.card-text {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--card-text);
+}
