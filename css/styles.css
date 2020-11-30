@@ -31,7 +31,7 @@
     --wedo-htad-color: #212121;
 
     /*наша комвнда*/
-    --team-bakeground-color: #F5F4FA;
+    --team-background-color: #F5F4FA;
     --team-head-color: #212121;
     --team-specialty-color: #757575;
     --team-card-bgcolor: #fff;
@@ -331,9 +331,15 @@
 
 /*чем мы занимаемся*/
 .wedo {
+    width: 1600px;
+    min-height: 386px;
+    margin-top: 94px;
 }
 /*заголовок секции*/
 .wedo-head {
+    width: 376px;
+    margin: 0px auto 50px auto;
+    /*margin-bottom: 50px;*/
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: bold;
@@ -345,13 +351,24 @@
 /*список секции*/
 .wedo-list {
     list-style: none;
+    width: 1170px;
+    margin: 0 auto 0 auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
 }
 /*элемент списка*/
 .wedo-item {
+    width: 370px;
+    height: 294px;
+
 }
 
 /*наша команда*/
 .our-team {
+    background-color: var(--team-background-color);
 }
 .our-team-head {
     font-family: var(--maine-font);
