@@ -1,7 +1,7 @@
 :root {
     /*### ШРИФТЫ ###*/
-    --maine-font: Roboto-Medium, sans-serif;
-    --secondary-font: Raleway-Regular, sans-serif;
+    --maine-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
 
     /*### политра ###*/
 
@@ -57,6 +57,17 @@
     --card-head: #212121;
     --card-text: #757575;
 }
+
+/*======сброс отступов======*/
+figure,
+figcaption,
+ul,li,h1,h2,
+h3,p {
+    margin: 0px;
+    padding: 0px;
+}
+/*==========================*/
+
 /* .page {
     background-color: ;
 } */
@@ -370,6 +381,11 @@
 .our-team {
     background-color: var(--team-background-color);
     width: 1600px;
+    /*height: 648px;*/
+    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom:94px;
+
 }
 .our-team-head {
     font-family: var(--maine-font);
@@ -378,12 +394,19 @@
     font-size: 36px;
     line-height: 1.166;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--team-head-color);
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 /*список наша команда*/
 .oure-time-list {
+    margin-left: auto;
+    margin-right: auto;
     list-style: none;
     width: 1170px;
+    display: flex;
+    justify-content: space-around;
 }
 .oure-time-list figure, a{
     font-family: var(--maine-font);
@@ -402,12 +425,27 @@
     border-radius: 0px 0px 4px 4px;
 }
 /*подпись карточки*/
+.bord {
+    width: 270px;
+    height: 368px;
+    /*технический*/
+    border: 1px solid tomato;
+}
+.test {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 68px;
+}
 .oure-time-card-head {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
     text-align: center;
+    letter-spacing: 0.03em;
+    
+    
+
 }
 .oure-time-card-text {
     font-style: normal;
@@ -415,6 +453,7 @@
     font-size: 16px;
     line-height: 1.187;
     color: var(--team-specialty-color);
+    margin-top: 10px;
 }
 
 /*подвал*/
