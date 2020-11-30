@@ -16,6 +16,8 @@
     --text-menu-accent: #2196F3;
     --link-telephon-and-mail: #757575;
 
+    /*разделительная линия*/
+    --separatory-line: #ECECEC;
     /*герой*/
     --hero-bakeground-color: #2F303A;
     --button-color: #2196F3;
@@ -188,19 +190,23 @@
     color: var(--text-menu-accent);
 }
 .line {
-    position: absolute;
     width: 1600px;
     height: 0px;
-    border: 1px solid #ECECEC;
+    border: 1px solid var(--separatory-line);
 }
 /*===== ГЛАВНЫЙ КОНТЕНТ =====*/
 
 /*герой*/
 .hero {
+    width: 1600px;
+    min-height: 600px;
     background-color: var(--hero-bakeground-color);
+    display: block;
 }
 .hero-heder {
     margin-top: 0;
+    width: 696px;
+    min-height: 120px;
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: 900;
