@@ -62,15 +62,32 @@
 /*===== шапка =====*/
 
 .heder {
+    box-sizing: border-box;
     background-color: var(--header-bakeground-color);
+    width: 1600px;
+    /*height: 80px;*/
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    padding: 0px 215px 0px 215px;
 }
 
 /*навигация страницы*/
 .main-navigation {
+    min-width: 294px;
+    margin-right: 331px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 /*логотип*/
 .logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+    width: 145px;
+    text-align: center;
 }
 .logo-link {
     text-decoration: none;
@@ -104,15 +121,22 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
+    padding-left: 0;
+    margin: 0;
 
+    display: flex;
 }
 
 /*элементы навигации*/
-.navigation-item-studio {
+.navigation-list-item:not(:last-child) {
+    margin-right: 50px;
 }
 .navigation-item-portfolio {
+    margin-right: 50px;
+    min-width: 77px;
 }
 .navigation-item-contacts {
+    min-width: 68px;
 }
 
 /*ссылки навигации*/
@@ -138,6 +162,7 @@
     font-size: 14px;
     line-height: 1.142;
     color: var(--link-telephon-and-mail);
+    margin-right: 50px;
 
 }
 .header-telephone-link {
@@ -162,7 +187,12 @@
     line-height: 1.142;
     color: var(--text-menu-accent);
 }
-
+.line {
+    position: absolute;
+    width: 1600px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
 /*===== ГЛАВНЫЙ КОНТЕНТ =====*/
 
 /*герой*/
@@ -170,6 +200,7 @@
     background-color: var(--hero-bakeground-color);
 }
 .hero-heder {
+    margin-top: 0;
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: 900;
