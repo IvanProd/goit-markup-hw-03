@@ -369,6 +369,7 @@
 /*наша команда*/
 .our-team {
     background-color: var(--team-background-color);
+    width: 1600px;
 }
 .our-team-head {
     font-family: var(--maine-font);
@@ -382,6 +383,7 @@
 /*список наша команда*/
 .oure-time-list {
     list-style: none;
+    width: 1170px;
 }
 .oure-time-list figure, a{
     font-family: var(--maine-font);
