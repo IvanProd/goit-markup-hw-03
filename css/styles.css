@@ -658,9 +658,6 @@ line-height: 1.714;
     /*технический*/
     /order: 1px solid brown;
 }
-.test:not(n+3){
-    
-}
 .project-card {
     width: 370px;
     height: 404px;
