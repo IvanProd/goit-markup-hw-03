@@ -62,7 +62,7 @@
 figure,
 figcaption,
 ul,li,h1,h2,
-h3,p {
+h3,p, button {
     margin: 0px;
     padding: 0px;
 }
@@ -487,6 +487,9 @@ h3,p {
     line-height: 1.192;
     color: var(--footer-logo-right);
 }
+.address{
+    margin-top: 20px;
+}
 .footer-address-list {
      list-style: none;
 }
@@ -512,9 +515,15 @@ line-height: 1.714;
 /*##################################################*/
 
 .portfolio-section {
-    display: flex;
+    box-sizing: border-box;
+    width: 1170px;
+    min-height: 1360px;
+    margin-top: 94px;
+
+    /*технический*/
+    /*border: 1px solid tomato;*/
 }
-/*оглавление страницы*/
+/*===оглавление страницы===*/
 .portfolio-headre {
     position: absolute;
     width: 1px;
@@ -528,13 +537,23 @@ line-height: 1.714;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/*навигация портфолио*/
 
+/*===навигация портфолио===*/
 .portfolio-navigation-list {
+    width: 611px;
+    display: flex;
     list-style: none;
-    font-family: var(--maine-font);
+    margin-left: auto;
+    margin-right: auto;
+
+    /*технический*/
+    /*border: 1px solid blue;*/
 }
 .portfolio-navigation-item {
+    
+
+    /*технический*/
+   /* border: 1px solid red;*/
 }
 .portfoli-button {
     background: var(--portfolio-button-bgcolor);
@@ -544,7 +563,10 @@ line-height: 1.714;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
+    letter-spacing: 0.03em;
     color: var(--portfolio-button-text-color);
+    font-family: var(--maine-font);
+    
 }
 .portfoli-button:hover,
 .portfoli-button:focus {
@@ -557,30 +579,33 @@ line-height: 1.714;
     line-height: 1.625;
     color: var(--portfolio-button-text-active-color);
 }
-/*индивидуальный стилизация*/
+.button-common {
+    margin-right: 8px;
+    min-height: 38px;
+}
+/*===индивидуальный стилизация===*/
 .all {
     width: 78px;
-    height: 38px;
 }
 .web-site {
     width: 128px;
-    height: 38px;
 }
 .application {
     width: 145px;
-    height: 38px;
 }
 .design {
     width: 103px;
-    height: 38px;
 }
 .marketing {
     width: 130px;
-    height: 38px;
 }
 
-/*каталог портфолио*/
+/*===каталог портфолио===*/
 .projects-section {
+    margin-top: 34px;
+
+    /*технический*/
+    border: 1px solid green;
 }
 .projects-header {
     position: absolute;
@@ -597,16 +622,26 @@ line-height: 1.714;
 }
 .pojects-list {
     font-family: var(--maine-font);
+    display: flex;
+    flex-wrap: wrap;
+
+    /*технический*/
+    border: 1px solid aqua;
 }
 .project-item {
+
+    /*технический*/
+    border: 1px solid brown;
 }
 .project-card {
-
     width: 370px;
     height: 404px;
     background: var(--project-card-bgcolor);
     border: 1px solid var(--project-card-border-color);
     box-sizing: border-box;
+
+    /*технический*/
+    border: 1px solid cadetblue;
 }
 .card-link {
 }
