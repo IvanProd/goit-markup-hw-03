@@ -524,6 +524,7 @@ line-height: 1.714;
     width: 1170px;
     min-height: 1360px;
     margin-top: 94px;
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     /*технический*/
@@ -551,6 +552,7 @@ line-height: 1.714;
     list-style: none;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4px;
 
     /*технический*/
     /*border: 1px solid blue;*/
@@ -608,6 +610,7 @@ line-height: 1.714;
 
 /*===каталог портфолио===*/
 .projects-section {
+    box-sizing: border-box;
     margin-top: 34px;
 
     /*технический*/
@@ -665,6 +668,7 @@ line-height: 1.714;
 .caption{
     width: 322px;
     height: 70px;
+    margin: 20px 24px ;
 }
 .card-head {
     
