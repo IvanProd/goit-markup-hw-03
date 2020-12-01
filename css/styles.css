@@ -419,22 +419,22 @@ h3,p {
     height: 368px;
 
     background: var(--project-card-bgcolor);
-    /* material shadow v1 */
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;*/
 }
 /*подпись карточки*/
 .bord {
+    box-sizing: border-box;
     width: 270px;
     height: 368px;
     /*технический*/
-    border: 1px solid tomato;
+   /* border: 1px solid tomato;*/
 }
-.test {
+.team-caption {
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 68px;
 }
 .oure-time-card-head {
     font-style: normal;
@@ -458,12 +458,15 @@ h3,p {
 
 /*подвал*/
 .footer{
+    box-sizing: border-box;
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.192;
     background-color: var(--footer-bgcolor);
+    padding-left: 215px;
+    width: 1600px;
 }
 .footer-logo-left {
     color: var(--footer-logo-left);
