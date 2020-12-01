@@ -424,8 +424,8 @@ h3,p, button {
 
     background: var(--project-card-bgcolor);
 
-   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;*/
+   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);*/
+    border-radius: 0px 0px 4px 4px;
 }
 /*===подпись карточки===*/
 .bord {
@@ -514,12 +514,18 @@ line-height: 1.714;
 /*#################### ПОТФОЛИО ####################*/
 /*##################################################*/
 
+.main-box {
+    width: 1600px;
+    box-sizing: border-box;
+    
+}
 .portfolio-section {
     box-sizing: border-box;
     width: 1170px;
     min-height: 1360px;
     margin-top: 94px;
-
+    margin-left: auto;
+    margin-right: auto;
     /*технический*/
     /*border: 1px solid tomato;*/
 }
@@ -605,7 +611,7 @@ line-height: 1.714;
     margin-top: 34px;
 
     /*технический*/
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 .projects-header {
     position: absolute;
@@ -624,14 +630,25 @@ line-height: 1.714;
     font-family: var(--maine-font);
     display: flex;
     flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+
+
 
     /*технический*/
-    border: 1px solid aqua;
+    /*border: 1px solid aqua;*/
 }
 .project-item {
-
+    flex-basis: calc(100% / 3 - 30px);
+    padding-left: 30px;
+    margin-top: 30px;
+    
+    
     /*технический*/
-    border: 1px solid brown;
+    /order: 1px solid brown;
+}
+.test:not(n+3){
+    
 }
 .project-card {
     width: 370px;
@@ -641,7 +658,7 @@ line-height: 1.714;
     box-sizing: border-box;
 
     /*технический*/
-    border: 1px solid cadetblue;
+    /*border: 1px solid cadetblue;*/
 }
 .card-link {
 }
