@@ -68,6 +68,10 @@ h3,p {
 }
 /*==========================*/
 
+/*№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№*/
+/*№№№№№№№№№№№№№№№№№№№№ ГЛАВНАЯ №№№№№№№№№№№№№№№№№№№№*/
+/*№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№*/
+
 /* .page {
     background-color: ;
 } */
@@ -80,13 +84,14 @@ h3,p {
     width: 1600px;
     /*height: 80px;*/
     margin: 0;
+    border-bottom: 1px solid var(--separatory-line);
 
     display: flex;
     align-items: center;
     padding: 0px 215px 0px 215px;
 }
 
-/*навигация страницы*/
+/*===навигация страницы===*/
 .main-navigation {
     min-width: 294px;
     margin-right: 331px;
@@ -94,7 +99,7 @@ h3,p {
     margin-bottom: 32px;
 }
 
-/*логотип*/
+/*===логотип===*/
 .logo {
     margin-top: 24px;
     margin-bottom: 25px;
@@ -106,7 +111,7 @@ h3,p {
     text-decoration: none;
 }
 
-/*левая часть логотипа*/
+/*===левая часть логотипа===*/
 .logo-text-left {
     font-family: var(--secondary-font);
     font-style: normal;
@@ -116,7 +121,7 @@ h3,p {
     color: var(--logo-color-left);
 }
 
-/*правая часть логотипа*/
+/*===правая часть логотипа===*/
 .logo-text-right {
     font-family: var(--secondary-font);
     font-style: normal;
@@ -126,7 +131,7 @@ h3,p {
     color: var(--logo-color-right);
 }
 
-/*список сылок навигации*/
+/*===список сылок навигации===*/
 .navigation-list {
     list-style: none;
     font-family: var(--maine-font);
@@ -140,7 +145,7 @@ h3,p {
     display: flex;
 }
 
-/*элементы навигации*/
+/*===элементы навигации===*/
 .navigation-list-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -152,12 +157,12 @@ h3,p {
     min-width: 68px;
 }
 
-/*ссылки навигации*/
+/*===ссылки навигации===*/
 .navigation-link {
     text-decoration: none;
     color: var(--text-menu-color);
 }
-/*акценты*/
+/*===акценты===*/
 .navigation-link:hover, 
 .navigation-link:focus{
     color: var(--text-menu-accent);
@@ -166,7 +171,7 @@ h3,p {
     color: var(--text-menu-accent);
 }
 
-/*контакты почта и телефон*/
+/*===контакты почта и телефон===*/
 .header-mail-link {
     text-decoration: none;
     font-family: var(--maine-font);
@@ -200,14 +205,10 @@ h3,p {
     line-height: 1.142;
     color: var(--text-menu-accent);
 }
-.line {
-    width: 1600px;
-    height: 0px;
-    border: 1px solid var(--separatory-line);
-}
+
 /*===== ГЛАВНЫЙ КОНТЕНТ =====*/
 
-/*герой*/
+/*===герой===*/
 .hero {
     box-sizing: border-box;
     width: 1600px;
@@ -215,20 +216,20 @@ h3,p {
     background-color: var(--hero-bakeground-color);
     padding-top: 200px;
     padding-bottom: 200px;
-    display: flexbox;
+    
     /*технический*/
     /*border: 1px solid tomato;*/
 }
 .hero-heder {
-    /*позиционирование*/
+    /*===позиционирование===*/
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    /*размеры*/
+    /*===размеры===*/
     width: 696px;
     min-height: 120px;
-    /*описание текста*/
+    /*===описание текста===*/
     font-family: var(--maine-font);
     font-style: normal;
     font-weight: 900;
@@ -238,9 +239,11 @@ h3,p {
     color: var(--hero-text-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
+   
     /*технический*/
     /*border: 1px solid tomato;*/
 }
+/*===кнопка героя===*/
 .hero-button {
     padding: 0;
     width: 200px;
@@ -254,6 +257,7 @@ h3,p {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    
     /*технический*/
     /*border: 1px solid tomato;*/
 }
@@ -267,7 +271,7 @@ h3,p {
     letter-spacing: 0.06em;
 }
 
-/*секция особености*/
+/*===секция особености===*/
 .features {
     width: 1600px;
     height: 101px;
@@ -275,7 +279,7 @@ h3,p {
 
 }
 
-/*скрытие заголовка*/
+/*===скрытие заголовка===*/
 .features-head {
     position: absolute;
     width: 1px;
@@ -290,7 +294,7 @@ h3,p {
     overflow: hidden;
 }
 
-/*список особенностей*/
+/*===список особенностей===*/
 .features-list {
     list-style: none;
     display: flex;
@@ -340,13 +344,13 @@ h3,p {
     color: var(--feature-text-color);
 }
 
-/*чем мы занимаемся*/
+/*===чем мы занимаемся===*/
 .wedo {
     width: 1600px;
     min-height: 386px;
     margin-top: 94px;
 }
-/*заголовок секции*/
+/*===заголовок секции===*/
 .wedo-head {
     width: 376px;
     margin: 0px auto 50px auto;
@@ -359,7 +363,7 @@ h3,p {
     text-align: center;
     color: var(--wedo-htad-color);
 }
-/*список секции*/
+/*===список секции===*/
 .wedo-list {
     list-style: none;
     width: 1170px;
@@ -370,14 +374,14 @@ h3,p {
     display: flex;
     justify-content: space-around;
 }
-/*элемент списка*/
+/*===элемент списка===*/
 .wedo-item {
     width: 370px;
     height: 294px;
 
 }
 
-/*наша команда*/
+/*===наша команда===*/
 .our-team {
     background-color: var(--team-background-color);
     width: 1600px;
@@ -399,7 +403,7 @@ h3,p {
     margin-top: 0px;
     margin-bottom: 50px;
 }
-/*список наша команда*/
+/*===список наша команда===*/
 .oure-time-list {
     margin-left: auto;
     margin-right: auto;
@@ -413,7 +417,7 @@ h3,p {
     text-decoration: none;
     color: var(--team-head-color);
 }
-/*карточка участника команды*/
+/*===карточка участника команды===*/
 .oure-time-card {
     width: 270px;
     height: 368px;
@@ -423,11 +427,12 @@ h3,p {
    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;*/
 }
-/*подпись карточки*/
+/*===подпись карточки===*/
 .bord {
     box-sizing: border-box;
     width: 270px;
     height: 368px;
+   
     /*технический*/
    /* border: 1px solid tomato;*/
 }
@@ -456,22 +461,30 @@ h3,p {
     margin-top: 10px;
 }
 
-/*подвал*/
+/*===подвал===*/
 .footer{
     box-sizing: border-box;
-    font-family: var(--maine-font);
+
+    background-color: var(--footer-bgcolor);
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1600px;
+}
+.footer-logo-left {
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.192;
-    background-color: var(--footer-bgcolor);
-    padding-left: 215px;
-    width: 1600px;
-}
-.footer-logo-left {
     color: var(--footer-logo-left);
 }
 .footer-logo-right {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
     color: var(--footer-logo-right);
 }
 .footer-address-list {
@@ -494,9 +507,12 @@ line-height: 1.714;
     color: var(--footer-address-contact);
 }
 
-/*############### ПОТФОЛИО ###############*/
+/*##################################################*/
+/*#################### ПОТФОЛИО ####################*/
+/*##################################################*/
 
 .portfolio-section {
+    display: flex;
 }
 /*оглавление страницы*/
 .portfolio-headre {
