@@ -427,7 +427,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 /*############### ПОТФОЛИО ###############*/
 
 .portfolio__section {
-    margin-top: 94px;
+    margin: 94px auto;
 }
 /*навигация портфолио*/
 
@@ -436,6 +436,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     justify-content: center;
     list-style: none;
     font-family: var(--maine-font);
+    margin-bottom: 50px;
 }
 .portfolio__navigation-item:not(:last-child) {
     margin-right: 8px;
@@ -484,7 +485,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 0 94px;
+    margin-top: -30px;
     font-family: var(--maine-font);
     list-style: none;
 }
@@ -501,7 +502,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 .card__link {
     display: block;
-    justify-content: center;
 }
 .caption{
     padding: 20px 24px ;
