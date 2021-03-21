@@ -61,6 +61,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     padding: 0;
 }
 .conteiner {
+    width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -73,7 +75,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    width: 1200px;
+    /* width: 1200px; */
     height: 80px;
     /* padding-left: 15px;
     padding-right: 15px; */
@@ -176,7 +178,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    /* width: 1200px; */
     height: 600px;
     padding: 200px 0;
     box-sizing: border-box;
@@ -281,8 +283,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     margin-top: 94px;
 }
 .wedo{
-    width: 1200px;
-    padding: 0 15px;
+    /* width: 1200px;
+    padding: 0 15px; */
 }
 /*заголовок секции*/
 .wedo__head {
@@ -313,8 +315,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     background-color: var(--team-bakeground-color);
 }
 .our-team {
-    width: 1200px;
-    padding: 94px 15px;
+    /* width: 1200px; */
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .our-team__head {
     font-family: var(--maine-font);
@@ -376,9 +379,12 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 /*подвал*/
 .footer{
+    padding: 60px 0;
     font-family: var(--maine-font);
 
     background-color: var(--footer-bgcolor);
+}
+.footer__blok{
 }
 .footer__logo--accent {
     color: var(--footer-logo-left);
@@ -392,9 +398,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--footer-logo-right);
+    
 }
 .footer__address-list {
+    margin-top: 20px;
      list-style: none;
+}
+.footer__address-item{
+    margin-top: 9px;
 }
 .footer__address-location{
     /* font-family: var(--maine-font); */
@@ -404,6 +415,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--footer-address-location);
+
 }
 .footer__address-contact{
     /* font-family: var(--maine-font); */
