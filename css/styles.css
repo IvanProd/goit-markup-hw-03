@@ -73,12 +73,11 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     box-sizing: border-box;
-    /* width: 1200px; */
+    width: 1200px;
     height: 80px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    margin: 0 auto;
     background-color: var(--header-bakeground-color);
 }
 
@@ -159,9 +158,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .mail{
     margin-right: 50px;
 }
-.number{
-    width: 122px;
-}
+
 .header__link:hover,
 .header__link:focus {
     color: var(--text-menu-accent);
