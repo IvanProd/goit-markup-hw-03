@@ -501,12 +501,10 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 .card__link {
     display: block;
+    justify-content: center;
 }
 .caption{
-    width: 322px;
-    height: 70px;
-    margin: 20px 24px;
-
+    padding: 20px 24px ;
 }
 .card__head {
 
@@ -520,7 +518,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     color: var(--card-head);
 }
 .card__text {
-    /* margin-top: 4px; */
+    margin-top: 4px;
 
     font-style: normal;
     font-weight: normal;
