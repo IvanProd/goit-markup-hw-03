@@ -427,14 +427,18 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 /*############### ПОТФОЛИО ###############*/
 
 .portfolio__section {
+    margin-top: 94px;
 }
 /*навигация портфолио*/
 
 .portfolio__navigation-list {
+    display: flex;
+    justify-content: center;
     list-style: none;
     font-family: var(--maine-font);
 }
-.portfolio__navigation-item {
+.portfolio__navigation-item:not(:last-child) {
+    margin-right: 8px;
 }
 .portfoli__button {
     background: var(--portfolio-button-bgcolor);
@@ -477,12 +481,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 /*каталог портфолио*/
 
 .pojects__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 94px;
     font-family: var(--maine-font);
     list-style: none;
 }
 .project__item {
-}
-.project__card {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-top: 30px;
 
     width: 370px;
     height: 404px;
@@ -490,27 +498,34 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
     border: 1px solid var(--project-card-border-color);
     box-sizing: border-box;
 }
+
 .card__link {
+    display: block;
 }
 .caption{
     width: 322px;
     height: 70px;
+    margin: 20px 24px;
+
 }
 .card__head {
-    
+
+    font-family: var(--maine-font);
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    
     letter-spacing: 0.06em;
     color: var(--card-head);
 }
 .card__text {
+    /* margin-top: 4px; */
 
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--card-text);
 }
