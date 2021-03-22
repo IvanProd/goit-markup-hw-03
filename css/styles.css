@@ -73,11 +73,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .header {
     display: flex;
     align-items: center;
-    justify-content: center; 
     box-sizing: border-box;
-    width: 1200px;
-    height: 80px;
-    margin: 0 auto;
+    padding: 24px 0 25px;
+    
     background-color: var(--header-bakeground-color);
 }
 
@@ -215,11 +213,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 }
 
 /*секция особености*/
-.features-section{
+.features{
   padding-top: 94px;
-}
-.features {
-
 }
 
 /*скрытие заголовка*/
@@ -274,13 +269,10 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 }
 
 /*чем мы занимаемся*/
-.wedo-section {
+.wedo {
     padding: 94px 0;
 }
-.wedo{
-    /* width: 1200px;
-    padding: 0 15px; */
-}
+
 /*заголовок секции*/
 .wedo__head {
     font-family: var(--maine-font);
@@ -305,13 +297,11 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 }
 
 /*наша команда*/
-.our-team-section{
+.our-team{
     padding: 94px 0;
     background-color: var(--team-bakeground-color);
 }
-.our-team {
 
-}
 .our-team__head {
     font-family: var(--maine-font);
     font-style: normal;
@@ -377,8 +367,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
     background-color: var(--footer-bgcolor);
 }
-.footer__blok{
-}
+
 .footer__logo--accent {
     color: var(--footer-logo-left);
 }
