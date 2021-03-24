@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 /*список сылок навигации*/
 .navigation__list {
-    display: flex;
+    display: inline-flex;
     width: 294px;
 
     padding: 0;
